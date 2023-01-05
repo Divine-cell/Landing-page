@@ -26,7 +26,7 @@ h2 {
 
 h3 {
     color: rgb(78, 74, 74);
-  }
+}
 
 .description-btn {
     text-align: center;
@@ -76,7 +76,8 @@ h3 {
 
 .monitor-text {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border: 1px solid transparent;
     box-sizing: border-box;
     width: 100%;
@@ -86,20 +87,24 @@ h3 {
 
 .monitor {
     margin-top: 50px;
-    margin-left: -35px;
+    width: 600px;
     
 }
 
+.monitor img {
+    margin-left: -150px;
+}
+
 .text2 {
-    margin-left: 120px ;
-    margin-top: 70px;
-    margin-right: 30px;
+    margin-left: 50px ;
+
+    margin-right: 50px;
 
 }
 
 p {
     color: rgb(180, 179, 179);
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .mobile-text {
@@ -183,7 +188,7 @@ footer {
 @media screen and (max-width: 560px) {
     body {
 
-        width: 100%; 
+        width: 100%;
         font-size: 20px;    
         line-height: 35px;
         height: 100%;
@@ -207,7 +212,7 @@ footer {
     
     .monitor img {
         width: 400px;
-        padding-left: 30px;
+       margin-left: 0px;
     }
 
    .monitor-text {
